@@ -25,11 +25,11 @@ function randomNum(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
 // read file list.txt
-const list = fs.readFileSync('list.txt', 'utf8');
-const listArr = list.split('\n');
+const list = fs.readFileSync('output.txt', 'utf8');
+const listArr = list.split('\r');
 console.log(listArr);
 const users = [];
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 15; i++) {
     let id = i;
     let name = listArr[i];
     let oldPrice = randomNum(100, 1000) * 1000;
@@ -41,7 +41,7 @@ for (let i = 0; i < 100; i++) {
 }
 
 // write to file
-fs.writeFile('product.json', JSON.stringify(users), (err) => {
+fs.writeFile('chuot.json', JSON.stringify(users), (err) => {
     if (err) throw err;
     console.log('Data written to file');
 }

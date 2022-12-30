@@ -1,0 +1,119 @@
+[
+  {
+    "id": 0,
+    "name": "USB OTG 3.1 512GB Type C Sandisk SDDDC3 Xanh",
+    "oldPrice": 688000,
+    "newPrice": 701000,
+    "saled": 0,
+    "origin": "Svalbard & Jan Mayen Islands",
+    "saleOff": 26
+  },
+  {
+    "id": 1,
+    "name": "USB OTG 3.1 128GB Dual Lighting Type C Sandisk SDIX70N Đen",
+    "oldPrice": 854000,
+    "newPrice": 384000,
+    "saled": 9,
+    "origin": "Algeria",
+    "saleOff": 22
+  },
+  {
+    "id": 2,
+    "name": "USB OTG 3.1 128GB Type C Sandisk SDDDC3 Đen",
+    "oldPrice": 255000,
+    "newPrice": 165000,
+    "saled": 16,
+    "origin": "Lao People's Democratic Republic",
+    "saleOff": 14
+  },
+  {
+    "id": 3,
+    "name": "USB 2.0 8GB Sandisk SDCZ33 Đen",
+    "oldPrice": 622000,
+    "newPrice": 317000,
+    "saled": 14,
+    "origin": "Sudan",
+    "saleOff": 46
+  },
+  {
+    "id": 4,
+    "name": "USB OTG 3.1 64GB Type C Sandisk SDDDC3 Đen",
+    "oldPrice": 701000,
+    "newPrice": 428000,
+    "saled": 20,
+    "origin": "Moldova",
+    "saleOff": 1
+  },
+  {
+    "id": 5,
+    "name": "USB OTG 3.1 32GB Type C Sandisk SDDDC3 Đen",
+    "oldPrice": 981000,
+    "newPrice": 251000,
+    "saled": 8,
+    "origin": "Liechtenstein",
+    "saleOff": 19
+  },
+  {
+    "id": 6,
+    "name": "USB Sandisk 3.1 16GB SDCZ430 Đen",
+    "oldPrice": 347000,
+    "newPrice": 416000,
+    "saled": 6,
+    "origin": "Sri Lanka",
+    "saleOff": 58
+  },
+  {
+    "id": 7,
+    "name": "USB 3.1 32 GB Transcend JetFlash 760 Đen Tím",
+    "oldPrice": 849000,
+    "newPrice": 865000,
+    "saled": 6,
+    "origin": "Cyprus",
+    "saleOff": 56
+  },
+  {
+    "id": 8,
+    "name": "USB 3.1 16 GB Apacer AH356",
+    "oldPrice": 368000,
+    "newPrice": 746000,
+    "saled": 4,
+    "origin": "Argentina",
+    "saleOff": 90
+  },
+  {
+    "id": 9,
+    "name": "USB 3.0 16 GB Sandisk CZ600",
+    "oldPrice": 474000,
+    "newPrice": 319000,
+    "saled": 15,
+    "origin": "Saudi Arabia",
+    "saleOff": 15
+  },
+  {
+    "id": 10,
+    "name": "USB 3.2 32 GB Apacer AH357",
+    "oldPrice": 150000,
+    "newPrice": 673000,
+    "saled": 20,
+    "origin": "Gabon",
+    "saleOff": 93
+  },
+  {
+    "id": 11,
+    "name": "USB 3.0 32 GB Sandisk CZ73",
+    "oldPrice": 398000,
+    "newPrice": 882000,
+    "saled": 9,
+    "origin": "Norfolk Island",
+    "saleOff": 65
+  },
+  {
+    "id": 12,
+    "name": "USB 3.0 - 3.1 16 GB Transcend JetFlash 790",
+    "oldPrice": 114000,
+    "newPrice": 945000,
+    "saled": 1,
+    "origin": "Estonia",
+    "saleOff": 3
+  }
+]
