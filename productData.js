@@ -8,13 +8,14 @@ name varchar(255)
 description varchar(1000) 
 content varchar(10000) 
 img varchar(255)*/
-    constructor(id,price,name,description,content,img){
-        this.id=id;
-        this.price=price;
-        this.name=name;
-        this.description=description;
-        this.content=content;
-        this.img=img;
+    constructor(id,name,oldPrice, newPrice, saled, origin,  saleOff){
+        this.id = id;
+        this.name = name;
+        this.oldPrice = oldPrice;
+        this.newPrice = newPrice;
+        this.saled = saled;
+        this.origin = origin;
+        this.saleOff = saleOff;
     }
 
 }
@@ -26,12 +27,13 @@ function randomNum(min, max) {
 const users = [];
 for (let i = 0; i < 100; i++) {
     let id = i;
-    let price = randomNum(100, 1000);
-    let name = faker.commerce.productName();
-    let description = faker.commerce.productDescription();
-    let content = faker.lorem.paragraphs();
-    let img = faker.image.image();
-    users.push(new Product(id,price,name,description,content,img));
+    let name = faker.name.firstName();
+    let oldPrice = randomNum(100, 1000) * 1000;
+    let newPrice = randomNum(100, 1000) * 1000;
+    let saled = randomNum(0, 20);
+    let origin = faker.address.country();
+    let saleOff = randomNum(0, 100);
+    users.push(new Product(id,name,oldPrice, newPrice, saled, origin,  saleOff));
 }
 
 // write to file
