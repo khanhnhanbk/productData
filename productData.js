@@ -24,10 +24,14 @@ img varchar(255)*/
 function randomNum(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
+// read file list.txt
+const list = fs.readFileSync('list.txt', 'utf8');
+const listArr = list.split('\n');
+console.log(listArr);
 const users = [];
 for (let i = 0; i < 100; i++) {
     let id = i;
-    let name = faker.name.firstName();
+    let name = listArr[i];
     let oldPrice = randomNum(100, 1000) * 1000;
     let newPrice = randomNum(100, 1000) * 1000;
     let saled = randomNum(0, 20);
